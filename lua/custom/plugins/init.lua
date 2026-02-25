@@ -3,8 +3,13 @@
 --
 -- See the kickstart.nvim README for more information
 return {
+  -- {
+  --   'mfussenegger/nvim-jdtls',
+  --   dependencies = { 'folke/which-key.nvim' },
+  -- },
   {
-    'mfussenegger/nvim-jdtls',
+    'nvim-java/nvim-java',
     dependencies = { 'folke/which-key.nvim' },
   },
+  { 'ThePrimeagen/vim-be-good' },
 }
